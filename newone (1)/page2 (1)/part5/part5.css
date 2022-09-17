@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Open+Sans:wght@700&family=Palette+Mosaic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Open+Sans:wght@700;800&family=Palette+Mosaic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Poppins:wght@200;700&display=swap');
+ .cl-all{
+    text-align: center;
+}
+ .alldiv{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+ .flextext{
+    display: flex;
+    flex-direction: column;
+}
+ .div1 {
+    background: linear-gradient(90deg, rgb(21, 21, 21) 0%, rgb(34, 34, 34) 100%);
+    width: 488px;
+    height: 234px;
+    
+    display: flex;
+    border-radius: 62px;
+    align-items: center;
+    padding: 30px;
+}
+ .div2 {
+    background: linear-gradient(90deg, rgb(21, 21, 21) 0%, rgb(34, 34, 34) 100%);
+    width: 488px;
+    height: 234px;
+    position: relative;
+    display: flex;
+    border-radius: 62px;
+    align-items: center;
+    padding: 30px;
+}
+
+ .toptext{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color:#656565 ;
+    font-size: 40px;
+    
+}
+ .textright{
+    color: #EFBC14;
+    font-size: 39px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    width: 400px;
+    font-weight: 550;
+}
+ .par{
+    color: #ACBDD8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: left;
+    width: 200px;
+}
+ .amb {
+    position: relative;
+    right: 3vh;
+    bottom: 49px;
+    
+}
+ .das{
+    position: relative;
+    top: 50px;
+    left: -180px;
+}
+@media only screen and (max-width: 992px) {
+    .alldiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+}
+    .textright {
+        color: rgb(239, 188, 20);
+        font-size: 25px;
+        font-family: Poppins, sans-serif;
+        text-align: left;
+        width: 400px;
+        font-weight: 528;
+}
+    .par {
+        color: rgb(172, 189, 216);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        text-align: left;
+        width: 197px;
+}
+        .div2 {
+        background: linear-gradient(90deg, rgb(21, 21, 21) 0%, rgb(34, 34, 34) 100%);
+        width: 444px;
+        height: 185px;
+        position: relative;
+        display: flex;
+        border-radius: 62px;
+        align-items: center;
+        padding: 24px;
+        margin-top: 70px;
+        }
+        .div1 {
+        background: linear-gradient(90deg, rgb(21, 21, 21) 0%, rgb(34, 34, 34) 100%);
+        width: 444px;
+        height: 185px;
+        position: relative;
+        display: flex;
+        border-radius: 62px;
+        align-items: center;
+        padding: 27px;
+}
+    .das {
+        position: relative;
+        top: 66px;
+        left: -170px;
+        width: 316px;
+}
+}
+
+@media only screen and (max-width: 360px) {
+    
+    .div1 {
+        background: linear-gradient(90deg, rgb(21, 21, 21) 0%, rgb(34, 34, 34) 100%);
+        width: 251px;
+        height: 151px;
+        position: relative;
+        display: flex;
+        border-radius: 62px;
+        align-items: center;
+        padding: 27px;
+}
+    .das {
+        position: relative;
+        top: 76px;
+        left: -312px;
+        width: 215px;
+}
+
+    .div2 {
+        background: linear-gradient(90deg, rgb(21, 21, 21) 0%, rgb(34, 34, 34) 100%);
+        width: 262px;
+        height: 148px;
+        position: relative;
+        display: flex;
+        border-radius: 62px;
+        align-items: center;
+        padding: 18px;
+        margin-top: 59px; 
+}
+    .amb {
+        position: relative;
+        right: 3.2vh;
+        bottom: 48px;
+        width: 206px;
+}
+    .textright {
+        color: rgb(239, 188, 20);
+        font-size: 20px;
+        font-family: Poppins, sans-serif;
+        text-align: left;
+        width: 403px;
+        font-weight: 528;
+}
+    .par {
+        color: rgb(172, 189, 216);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 19px;
+        text-align: left;
+        width: 177px;
+}
+}

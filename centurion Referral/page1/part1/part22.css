@@ -1,0 +1,74 @@
+.div2:hover{
+    padding: 2px;
+    transition: 1s;
+    transform: scale(0.9);
+}
+.certif:hover{
+    transform: scale(1.2);
+    
+    transition: 1s;
+}
+.div1:hover{
+    transform: scale(1.09);
+    
+}
+.referral:hover{
+    transform: scale(1.0);
+}
+.marke{
+   -webkit-animation:glide 1s ease-in-out alternate infinite;
+}
+@-webkit-keyframes glide  {
+    from {
+       left:0px;
+       bottom:110px;
+    }
+    
+    to {
+       left:0px;
+       bottom:150px;
+    }
+ 
+ }
+
+ @media only screen and (max-width: 1366px) {
+.div2{
+    height: 320px;
+}
+.le{
+    
+}
+.para{
+    padding: 0px 20%;
+}
+ }
+ @media only screen and (max-width: 992px) {
+     .block{
+         display: flex;
+         flex-direction: column;
+        align-items: center;
+        }
+    .cl-all{
+        padding: 20px;
+    }
+    .marke{
+        -webkit-animation:glide 0s ease-in-out alternate infinite;
+     }
+    .div1{
+        margin-top: 30px;
+        margin-left: 40px;
+        margin-bottom: 30px;
+    }
+    .div2{
+     width:250px ;
+     height: 250px;  
+     margin-left: 50px; 
+    }
+    .certif{
+        width: 400px;
+    }
+    .div3{
+        margin-top: 20vh;
+    }
+   
+}

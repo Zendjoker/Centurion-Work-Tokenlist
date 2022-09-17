@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Open+Sans:wght@700&family=Palette+Mosaic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Open+Sans:wght@700;800&family=Palette+Mosaic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Poppins:wght@200;700&display=swap');
+.cl-all{
+    text-align: center;
+    background-color: #F9FAFD;
+    height: 100%;
+}
+.toptext{
+    color:#656565 ;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+padding-bottom: 120px;
+}
+
+.tabparent{
+    display: flex;
+    flex-direction: column;
+    text-align:left;
+width: 700px;
+padding-top: 60px;
+padding-left: 55vh;
+
+}
+.div1{padding: 25px 0px;
+    border-top: 1px solid #656565;
+    border-bottom: 1px solid #656565;
+}
+.div2{padding: 25px 0px;
+    border-top: 1px solid #656565;
+    border-bottom: 1px solid #656565;}
+.div3{padding: 25px 0px;border-top: 1px solid #656565;
+    border-bottom: 1px solid #656565;}
+.div4{padding: 25px 0px;border-top: 1px solid #656565;
+    border-bottom: 1px solid #656565;}
+.texts{
+    color: #656565;
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.div{
+    background: rgb(21,21,21);
+background: linear-gradient(90deg, rgba(21,21,21,1) 0%, rgba(34,34,34,1) 100%);
+    width: 1176px;
+    height: 327px;
+border-radius: 62px;
+position: relative;
+display: flex;
+margin-left: 20%;
+margin-top: 50px;
+}
+img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.textunder{
+display: flex;
+flex-direction: column;
+padding: 50px;
+text-align: left
+}
+.join{
+color: #EFBC14;
+font-size: 39px;
+font-family: 'Poppins', sans-serif;
+font-weight: 510;
+}
+.underjoin{
+    padding-bottom: 50px;
+color: #ACBDD8;
+font-size: 25px;
+font-family: Arial, Helvetica, sans-serif;
+text-align: left;
+}
+.button-invite{
+    color: #FFFFFF;
+    text-align: center;
+    width:213px ;
+    font-size: 20px;
+    font-weight: 550;
+    font-family: 'Poppins', sans-serif;
+    background-color: #EFBC14;
+    height: 65px;
+    border-radius: 17px;
+    padding-bottom: 0;
+}
+@media only screen and (max-width: 992px) {
+    .tabparent{
+        padding-left: 0;
+    overflow-x:scroll ;
+    }
+    .div{
+margin-right: 0;
+padding: 0;
+        width: 80%;
+        height: 527px;
+    }
+img{
+    width: 600px;
+    top: 20vh;
+    left: 8vh;
+}
+}
+@media only screen and (max-width: 1366px) {
+    .div{
+        margin-left: 100px;
+        display: flex;
+    }
+}

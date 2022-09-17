@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Open+Sans:wght@700&family=Palette+Mosaic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Open+Sans:wght@700;800&family=Palette+Mosaic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Poppins:wght@200;700&display=swap');
+*{
+    background-color: #fafafa00;
+}
+.logotop{
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #2c2c2c00;
+    justify-content: center;
+}
+.logo-magnet{
+width: 76px;
+height: 76px;
+background-color: #2c2c2c00;
+}
+.magnet{
+    color: #2C2C2C;
+    font-family: 'Open Sans', Extrablod;
+    font-size: 32px;
+    padding: 0px 10px;
+    line-height: 30px;
+    font-weight: 900s;
+    background-color: #2c2c2c00;
+
+}
+.toppara{
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 900;
+    font-size: 40px;
+    font-family: 'Open Sans', Extrablod;
+}
+.para{
+text-align: center;
+font-size: 20px;
+font-weight: 100;
+font-family: Helvetica;
+color: #656565;
+padding: 0px 30%;
+color:#656565;
+line-height: 40px;
+}
+
+.block{
+display: flex;
+justify-content:center;
+
+padding: 10px;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    background-color: #fce95e;
+    background-image: linear-gradient(135deg, #fce95e 0%, #efbc14 100%);
+    width: 220px;
+    height: 220px;
+    border-radius: 22px;
+    margin-right: 40px;
+    margin-top: 130px;
+    transition: 1s;
+}
+.div2{
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    background-color: #fce95e;
+    background-image: linear-gradient(135deg, #fce95e 0%, #efbc14 100%);
+width: 330px;
+height: 320px;
+position: relative;
+border-radius: 22px;
+margin-right: 50px;
+}
+.div3{
+    background-color: #fce95e;
+    background-image: linear-gradient(135deg, #fce95e 0%, #efbc14 100%);
+    width: 250px;
+    height: 320px;
+    border-radius: 22px;
+    margin-top: 80px;
+    position: relative;
+}
+.certif{
+    transition: 1s;
+    position: relative;
+    width: 500px;
+    right: 70px;
+bottom: 0px;
+}
+.marke{
+    position: relative;
+left: 0;
+bottom: 40%;
+}
+.referral{
+    position: relative;
+    bottom: 32px;
+    
+}
+.cl-color{
+    color: #ACBDD8;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 650;
+    font-size: 35px;
+}
+.referral-text{
+    position: relative;
+    bottom: 50px;
+    left: 10px;
+}
+.certificate-text{
+    position: relative;
+    bottom: 70px;
+    line-height: 35px;
+}
+
+
+
+
+
+.custom-shape-divider-bottom-1648459900 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1648459900 svg {
+    position: relative;
+    display: block;
+    
+    width: calc(100% + 1.3px);
+    height: 252px;
+}
+
+.custom-shape-divider-bottom-1648459900 .shape-fill {
+    fill: #ffffff;
+    
+}
+.magnett{
+    position: absolute;
+    top: 450px;
+left: 72px;
+width: 284px;
+
+height: 284px;
+background: transparent url('./m.png') 0% 0% no-repeat padding-box;
+opacity: 0.5;
+}
+
+.backmagnett{
+    position: absolute;
+    
+    top: 313px;
+    left: 1499px;
+    width: 460px;
+    height: 460px;
+    /* UI Properties */
+    background: transparent url('./n.png') 0% 0% no-repeat padding-box;
+    opacity: 0.5;
+}
+.bull1{
+    position: absolute;
+top: 504px;
+left: 399px;
+width: 22px;
+height: 22px;
+border-radius: 50%;
+
+background: #F0BFC7 0% 0% no-repeat padding-box;
+opacity: 1; 
+}
+.bull2{
+    position: absolute;
+    top: 426px;
+    left: 690px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #7A86C4 0% 0% no-repeat padding-box;
+    opacity: 1;
+ }
+ .bull3{
+    position: absolute;
+top: 804px;
+left: 589px;
+width: 60px;
+height: 60px;
+border-radius: 50%;
+background: #BFC7F0 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.bull4{
+position: absolute;
+top: 853px;
+left: 1150px;
+width: 36px;
+height: 36px;
+border-radius: 50%;
+background: #BFF0EB 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.bull5{
+    position: absolute;
+    top: 383px;
+    left: 1580px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: #FABA45 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.bull6{
+    position: absolute;
+    top: 500px;
+    left: 1680px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #BFF0EB 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.bull7{
+    position: absolute;
+    top: 423px;
+    left: 1750px;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: #fabb4556 0% 0% no-repeat padding-box;
+    opacity: 1;
+}

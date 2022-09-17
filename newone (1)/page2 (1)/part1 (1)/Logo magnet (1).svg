@@ -1,0 +1,34 @@
+<svg id="Logo_magnet" data-name="Logo magnet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="459.775" height="459.775" viewBox="0 0 459.775 459.775">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1226" data-name="Rectangle 1226" width="459.775" height="459.775" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="Rectangle_1222" data-name="Rectangle 1222" width="150.139" height="150.141" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <rect id="Rectangle_1224" data-name="Rectangle 1224" width="150.14" height="150.139" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Groupe_420" data-name="Groupe 420" clip-path="url(#clip-path)">
+    <g id="Groupe_419" data-name="Groupe 419">
+      <g id="Groupe_418" data-name="Groupe 418" clip-path="url(#clip-path)">
+        <path id="Tracé_27334" data-name="Tracé 27334" d="M227.208,423.2A194.711,194.711,0,0,1,88.621,365.8L58.88,336.059l78.045-78.05,29.741,29.741A85.618,85.618,0,1,0,287.75,166.669l-29.741-29.743L336.058,58.88,365.8,88.621A195.994,195.994,0,0,1,227.208,423.2" transform="translate(36.571 36.571)" fill="#fff"/>
+        <g id="Groupe_414" data-name="Groupe 414" transform="translate(199.129)" opacity="0.6">
+          <g id="Groupe_413" data-name="Groupe 413">
+            <g id="Groupe_412" data-name="Groupe 412" clip-path="url(#clip-path-3)">
+              <rect id="Rectangle_1221" data-name="Rectangle 1221" width="110.377" height="101.954" transform="translate(0 78.048) rotate(-45)" fill="#fff"/>
+            </g>
+          </g>
+        </g>
+        <g id="Groupe_417" data-name="Groupe 417" transform="translate(0 199.131)" opacity="0.6">
+          <g id="Groupe_416" data-name="Groupe 416">
+            <g id="Groupe_415" data-name="Groupe 415" clip-path="url(#clip-path-4)">
+              <rect id="Rectangle_1223" data-name="Rectangle 1223" width="110.377" height="101.953" transform="translate(0 78.049) rotate(-45.001)" fill="#fff"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

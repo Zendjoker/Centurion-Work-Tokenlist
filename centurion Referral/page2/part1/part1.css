@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Open+Sans:wght@700&family=Palette+Mosaic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Open+Sans:wght@700;800&family=Palette+Mosaic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Poppins:wght@200;700&display=swap');
+.cl-all{
+    
+    background-color: #F9FAFD;
+}
+.big-circle{
+    background-color: #363636;
+    width: 980px;
+    height: 980px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 30px;
+    right: 200px;
+    margin: 0;
+    padding: 0;
+}
+.text-middle{
+    display: flex;
+    flex-direction: column;
+}
+.big-ball{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+.referraltitle{
+    color: #2C2C2C;
+    font-size: 50px;
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.paragraphe{
+    width: 60%;
+
+}
+
+.referral{
+    position: relative;
+    width: 90vh;
+    bottom: 30px;
+}
+
+
+
+
+.right-magnet{
+    position: absolute;
+    top: 198px;
+left: 145vh;
+
+width: 284px;
+height: 284px;
+opacity: 1;
+}
+
+
+.custom-shape-divider-bottom-1648649574 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1648649574 svg {
+    position: relative;
+    display: block;
+    width: calc(291% + 2px);
+    height: 700px;
+}
+
+.custom-shape-divider-bottom-1648649574 .shape-fill {
+    fill: #ffffff;
+}
